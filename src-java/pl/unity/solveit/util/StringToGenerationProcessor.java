@@ -24,10 +24,10 @@ public class StringToGenerationProcessor {
 				Cell cell = new Cell(j, i);
 
 				if (columns[j].equalsIgnoreCase("O")) {
-					cell.setAlive(true);
-				}
 
-				aliveCells.add(cell);
+					cell.setAlive(true);
+					aliveCells.add(cell);
+				}
 			}
 		}
 

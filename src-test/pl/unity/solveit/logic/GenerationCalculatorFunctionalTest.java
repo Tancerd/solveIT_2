@@ -29,7 +29,7 @@ public class GenerationCalculatorFunctionalTest {
 	@Test
 	public void shouldGenerateNewGeneration2() {
 
-		String stringGeneration = "O O"
+		String stringGeneration = "O O\n"
 								+ "O X";
 
 		IGenerationCalculator generationCalculator = new GenerationCalculator();
@@ -47,7 +47,7 @@ public class GenerationCalculatorFunctionalTest {
 	@Test
 	public void shouldGenerateNewGeneration3() {
 
-		String stringGeneration = "O O"
+		String stringGeneration = "O O\n"
 								+ "O O";
 
 		IGenerationCalculator generationCalculator = new GenerationCalculator();
@@ -81,9 +81,9 @@ public class GenerationCalculatorFunctionalTest {
 	@Test
 	public void shouldGenerateNewGeneration5() {
 
-		String stringGeneration = "O O O"
-								+ "O O O"
-								+ "O O O";
+		String stringGeneration = "O O O\n" 
+								+ "O O O\n" 
+								+ "O O O\n";
 
 		IGenerationCalculator generationCalculator = new GenerationCalculator();
 
